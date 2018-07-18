@@ -24,7 +24,6 @@ rosdep install --from-paths src --ignore-src -y
 catkin build
 #Needed or rosrun can't find nodes from this workspace.
 source devel/setup.bash
-
 ```
      
      
