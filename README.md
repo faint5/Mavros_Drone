@@ -21,6 +21,6 @@
      catkin build
      #Needed or rosrun can't find nodes from this workspace.
      source devel/setup.bash
-     '''
+     
      
      ## Install Px4
