@@ -7,7 +7,7 @@
      
   Souce Inatallation    
   
-'''         
+```        
 mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws
 catkin init
@@ -24,7 +24,8 @@ rosdep install --from-paths src --ignore-src -y
 catkin build
 #Needed or rosrun can't find nodes from this workspace.
 source devel/setup.bash
-'''
+
+```
      
      
 ## Install Px4
