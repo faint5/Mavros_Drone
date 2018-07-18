@@ -28,3 +28,18 @@ source devel/setup.bash
      
      
 ## Install Px4
+```
+mkdir -p ~/src
+cd ~/src
+git clone https://github.com/PX4/Firmware.git
+cd Firmware
+git submodule update --init --recursive
+cd ..
+```
+
+Check if the repository can be properly built
+```
+cd ~/src/Firmware
+make posix_sitl_default gazebo
+
+```
