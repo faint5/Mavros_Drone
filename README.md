@@ -6,9 +6,12 @@
      
      
   Souce Inatallation    
-          
-     mkdir -p ~/catkin_ws/src
-     cd ~/catkin_ws
+  
+'''         
+mkdir -p ~/catkin_ws/src
+cd ~/catkin_ws
+'''
+
      catkin init
      wstool init src
      sudo apt-get install python-catkin-tools python-rosinstall-generator -y
